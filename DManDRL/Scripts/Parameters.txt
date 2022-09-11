@@ -1,0 +1,17 @@
+500000	# BufferSize
+128	# BatchSize
+0.99	# GAMMA
+0.0005	# TAU
+0.00005	# LRA (Learning Rate Actor)
+0.0005	# LRC (Learning Rate Critic)
+90000	# EXPLORE 160000(375000)
+1000	# Episode Count 4000
+1000	# Max Steps Per Episode
+5	# AC (Action Commitment)
+0.05	# dt (time step)
+1	# Max Forcing Epsilon (2)
+100	# Max Episode Run Time(100)
+1	# FPenalty (Forcing Penalty 2, for test1 is 1)
+12   # State Dim
+4   # Action Dim
+12   # Truncation Value, should match state DIM
