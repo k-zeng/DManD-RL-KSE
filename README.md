@@ -3,7 +3,7 @@ Demo Code for DManD-RL Applied to the Kuramoto-Sivashinsky Equation
 
 Run main.py to generate demo trajectory: generates from specified initial condition (IC#) an RL agent controlled trajectory in the true domain (semi-implicit KSE solver) and the corresponding RL agent controlled trajectory in the NODE--decoded. The statistical properties of the trajectories are also provided.
 
-You will need the following packages:
+You will need the following packages: <br />
 tensorflow: 1.14.0 <br />
 pytorch: 1.9.0 <br />
 torchdiffeq: 0.2.2 <br />
